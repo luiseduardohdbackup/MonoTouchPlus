@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB640800000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7319000000000000000000 /* UIKit.framework */; };
+		373C8F800000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F968000000000000000000 /* MapKit.framework */; };
+		E40606000000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC2DE800000000000000000 /* Foundation.framework */; };
+		AC8C55000000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8492D800000000000000000 /* CoreGraphics.framework */; };
+		4E2EE1000000000000000000 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EBB9800000000000000000 /* MainStoryboard_iPhone.storyboard */; };
+		DF3B7F000000000000000000 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B530000000000000000000 /* MainStoryboard_iPad.storyboard */; };
+		548B44800000000000000000 /* Sample_SimulatedTransparentViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70481D000000000000000000 /* Sample_SimulatedTransparentViewController_iPhone.xib */; };
+		154BB0000000000000000000 /* Sample_SimulatedTransparentViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38CE6C000000000000000000 /* Sample_SimulatedTransparentViewController_iPad.xib */; };
+		AE1E31800000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = E597E2800000000000000000 /* AppDelegate.h */; };
+		E0D820000000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61440B800000000000000000 /* AppDelegate.m */; };
+		BAD6F8800000000000000000 /* RootViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = F250A9800000000000000000 /* RootViewController.h */; };
+		3026BE000000000000000000 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A06F000000000000000000 /* RootViewController.m */; };
+		DCF034800000000000000000 /* DetailViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = F8AD0D000000000000000000 /* DetailViewController.h */; };
+		523FFA000000000000000000 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFCD2800000000000000000 /* DetailViewController.m */; };
+		FF0970800000000000000000 /* GlassButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 1AC649000000000000000000 /* GlassButton.h */; };
+		589C5D800000000000000000 /* GlassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C78FBF800000000000000000 /* GlassButton.m */; };
+		2122AC800000000000000000 /* Sample_UIWebImageView.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF85000000000000000000 /* Sample_UIWebImageView.h */; };
+		B22F4A800000000000000000 /* Sample_UIWebImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEC23000000000000000000 /* Sample_UIWebImageView.m */; };
+		433BE8800000000000000000 /* Sample_SimulatedTransparentViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 967272000000000000000000 /* Sample_SimulatedTransparentViewController.h */; };
+		F0055F000000000000000000 /* Sample_SimulatedTransparentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2378000000000000000000 /* Sample_SimulatedTransparentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9667B000000000000000000 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Sample.app"; path = "Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7319000000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		52F968000000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		FFC2DE800000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		C8492D800000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		69EBB9800000000000000000 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard_iPhone.storyboard"; path = "MainStoryboard_iPhone.storyboard"; sourceTree = "<group>"; };
+		16B530000000000000000000 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard_iPad.storyboard"; path = "MainStoryboard_iPad.storyboard"; sourceTree = "<group>"; };
+		70481D000000000000000000 /* Sample_SimulatedTransparentViewController_iPhone.xib */ = {isa = PBXFileReference; name = "Sample_SimulatedTransparentViewController_iPhone.xib"; path = "Sample_SimulatedTransparentViewController_iPhone.xib"; sourceTree = "<group>"; };
+		38CE6C000000000000000000 /* Sample_SimulatedTransparentViewController_iPad.xib */ = {isa = PBXFileReference; name = "Sample_SimulatedTransparentViewController_iPad.xib"; path = "Sample_SimulatedTransparentViewController_iPad.xib"; sourceTree = "<group>"; };
+		E597E2800000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		61440B800000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		F250A9800000000000000000 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RootViewController.h"; path = "RootViewController.h"; sourceTree = "<group>"; };
+		67A06F000000000000000000 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RootViewController.m"; path = "RootViewController.m"; sourceTree = "<group>"; };
+		F8AD0D000000000000000000 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DetailViewController.h"; path = "DetailViewController.h"; sourceTree = "<group>"; };
+		6DFCD2800000000000000000 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DetailViewController.m"; path = "DetailViewController.m"; sourceTree = "<group>"; };
+		1AC649000000000000000000 /* GlassButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GlassButton.h"; path = "GlassButton.h"; sourceTree = "<group>"; };
+		C78FBF800000000000000000 /* GlassButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "GlassButton.m"; path = "GlassButton.m"; sourceTree = "<group>"; };
+		3CDF85000000000000000000 /* Sample_UIWebImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sample_UIWebImageView.h"; path = "Sample_UIWebImageView.h"; sourceTree = "<group>"; };
+		CDEC23000000000000000000 /* Sample_UIWebImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Sample_UIWebImageView.m"; path = "Sample_UIWebImageView.m"; sourceTree = "<group>"; };
+		967272000000000000000000 /* Sample_SimulatedTransparentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sample_SimulatedTransparentViewController.h"; path = "Sample_SimulatedTransparentViewController.h"; sourceTree = "<group>"; };
+		BC2378000000000000000000 /* Sample_SimulatedTransparentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Sample_SimulatedTransparentViewController.m"; path = "Sample_SimulatedTransparentViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9D04800000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB640800000000000000000 /* UIKit.framework in Frameworks */,
+				373C8F800000000000000000 /* MapKit.framework in Frameworks */,
+				E40606000000000000000000 /* Foundation.framework in Frameworks */,
+				AC8C55000000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3079DDC00000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				36D641400000000000000000 /* Sample */,
+				808235800000000000000000 /* Frameworks */,
+				DD4354400000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4354400000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9667B000000000000000000 /* Sample.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		808235800000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A7319000000000000000000 /* UIKit.framework */,
+				52F968000000000000000000 /* MapKit.framework */,
+				FFC2DE800000000000000000 /* Foundation.framework */,
+				C8492D800000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		36D641400000000000000000 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				E597E2800000000000000000 /* AppDelegate.h */,
+				F8AD0D000000000000000000 /* DetailViewController.h */,
+				1AC649000000000000000000 /* GlassButton.h */,
+				16B530000000000000000000 /* MainStoryboard_iPad.storyboard */,
+				69EBB9800000000000000000 /* MainStoryboard_iPhone.storyboard */,
+				F250A9800000000000000000 /* RootViewController.h */,
+				967272000000000000000000 /* Sample_SimulatedTransparentViewController.h */,
+				38CE6C000000000000000000 /* Sample_SimulatedTransparentViewController_iPad.xib */,
+				70481D000000000000000000 /* Sample_SimulatedTransparentViewController_iPhone.xib */,
+				3CDF85000000000000000000 /* Sample_UIWebImageView.h */,
+				932CAB000000000000000000 /* Supporting Files */,
+			);
+			name = "Sample";
+			sourceTree = "<group>";
+		};
+		932CAB000000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61440B800000000000000000 /* AppDelegate.m */,
+				6DFCD2800000000000000000 /* DetailViewController.m */,
+				C78FBF800000000000000000 /* GlassButton.m */,
+				67A06F000000000000000000 /* RootViewController.m */,
+				BC2378000000000000000000 /* Sample_SimulatedTransparentViewController.m */,
+				CDEC23000000000000000000 /* Sample_UIWebImageView.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59D264800000000000000000 /* Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D199D800000000000000000 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildPhases = (
+				152353800000000000000000 /* Sources */,
+				4C9D04800000000000000000 /* Frameworks */,
+				30E02C000000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample";
+			productName = "Sample";
+			productReference = F9667B000000000000000000 /* Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0633C000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = { };
+			buildConfigurationList = 537601000000000000000000 /* Build configuration list for PBXProject "Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3079DDC00000000000000000;
+			productRefGroup = DD4354400000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59D264800000000000000000 /* Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E02C000000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2EE1000000000000000000 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DF3B7F000000000000000000 /* MainStoryboard_iPad.storyboard in Resources */,
+				548B44800000000000000000 /* Sample_SimulatedTransparentViewController_iPhone.xib in Resources */,
+				154BB0000000000000000000 /* Sample_SimulatedTransparentViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152353800000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1E31800000000000000000 /* AppDelegate.h in Sources */,
+				E0D820000000000000000000 /* AppDelegate.m in Sources */,
+				BAD6F8800000000000000000 /* RootViewController.h in Sources */,
+				3026BE000000000000000000 /* RootViewController.m in Sources */,
+				DCF034800000000000000000 /* DetailViewController.h in Sources */,
+				523FFA000000000000000000 /* DetailViewController.m in Sources */,
+				FF0970800000000000000000 /* GlassButton.h in Sources */,
+				589C5D800000000000000000 /* GlassButton.m in Sources */,
+				2122AC800000000000000000 /* Sample_UIWebImageView.h in Sources */,
+				B22F4A800000000000000000 /* Sample_UIWebImageView.m in Sources */,
+				433BE8800000000000000000 /* Sample_SimulatedTransparentViewController.h in Sources */,
+				F0055F000000000000000000 /* Sample_SimulatedTransparentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A62FF1800000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		DDA9A2800000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Sample";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		537601000000000000000000 /* Build configuration list for PBXProject "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62FF1800000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		4D199D800000000000000000 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA9A2800000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0633C000000000000000000 /* Project object */;
+}
